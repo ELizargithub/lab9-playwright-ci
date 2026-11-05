@@ -53,7 +53,7 @@
         return;
       }
 
-      const fee = value > 10000
+      const fee = value >= 10000
         ? 0
         : (zone.value === "city" ? 1000 : 2000);
 
